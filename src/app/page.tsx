@@ -31,10 +31,10 @@ export default function Home() {
   ];
 
   const amenities = [
-    { icon: Car, title: "Free Parking", description: "Dedicated parking space for all guests" },
-    { icon: Utensils, title: "Multi-Cuisine Restaurant", description: "Authentic Kerala food & biryani" },
-    { icon: Users, title: "AC Event Hall", description: "Capacity for 30-80 guests" },
-    { icon: Clock, title: "24/7 Front Desk", description: "Round-the-clock assistance" },
+    { icon: Car, title: "Free Parking", description: "Park right at our doorstep, hassle-free" },
+    { icon: Utensils, title: "In-House Restaurant", description: "Homestyle Kerala flavors, served fresh" },
+    { icon: Users, title: "Event Hall", description: "Celebrate your special moments with us" },
+    { icon: Clock, title: "Always Here", description: "24/7 support, whenever you need us" },
   ];
 
   const faqs = [
@@ -90,17 +90,16 @@ export default function Home() {
             <div className="inline-block w-16 h-0.5 bg-primary mb-8"></div>
           </div>
           <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-serif font-light text-foreground mb-6 tracking-wide leading-tight">
-            Best Budget Hotel in Changanassery with Restaurant & Free Parking
+            Your Home Away From Home in Changanassery
           </h1>
           <p className="text-base sm:text-lg md:text-xl text-primary font-medium mb-4 tracking-wide">
-            Arcalia Hotel — Tasty Food, Safe Stay
+            Arcalia Hotel — Where Comfort Meets Authentic Kerala Hospitality
           </p>
           <p className="text-lg sm:text-xl md:text-2xl text-muted-foreground mb-6 font-light tracking-wide">
-            Located Near KSRTC Bus Stand & Railway Station, Kerala
+            Steps Away from KSRTC Bus Stand • Heart of Kerala
           </p>
-          {/* Featured Snippet Optimized Content */}
           <p className="text-sm sm:text-base text-muted-foreground mb-10 md:mb-12 font-light max-w-2xl mx-auto">
-            Arcalia Hotel is the top-rated budget hotel in Changanassery offering comfortable rooms, authentic Kerala cuisine restaurant, AC event hall, and complimentary parking—just 2 minutes from KSRTC bus stand.
+            Wake up to the aroma of fresh Kerala spices, enjoy cozy rooms that feel like home, and experience genuine hospitality that keeps our guests coming back. Whether you're traveling for business or pleasure, Arcalia is your perfect retreat.
           </p>
           <div className="flex flex-col md:flex-row items-center justify-center gap-3 md:gap-4">
             <Button 
@@ -149,24 +148,24 @@ export default function Home() {
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-10">
             <h2 id="services-heading" className="text-2xl sm:text-3xl md:text-4xl font-serif font-light text-foreground mb-3">
-              Hotel Services in Changanassery
+              Everything You Need, All in One Place
             </h2>
-            <p className="text-muted-foreground font-light">Everything you need for a comfortable stay in Kerala</p>
+            <p className="text-muted-foreground font-light">From delicious meals to memorable events — we've got you covered</p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-6">
             <Link href="/restaurant" className="group block rounded-sm border border-border bg-white p-5 md:p-6 shadow-sm hover:shadow-md transition-shadow" aria-label="Visit Arcalia Restaurant page">
-              <h3 className="text-xl sm:text-2xl font-serif font-light mb-3 group-hover:text-primary transition-colors">Kerala Restaurant</h3>
-              <p className="text-muted-foreground font-light text-sm sm:text-base mb-4">Authentic Kerala cuisine, biryani, grills, and seafood. Enjoy traditional meals starting at ₹200 with fish curry, chicken fry, and more.</p>
-              <span className="text-primary text-sm font-medium">View Menu →</span>
+              <h3 className="text-xl sm:text-2xl font-serif font-light mb-3 group-hover:text-primary transition-colors">Taste of Kerala</h3>
+              <p className="text-muted-foreground font-light text-sm sm:text-base mb-4">Savor the rich flavors of authentic Kerala cuisine — from aromatic biryanis to spicy fish curry. Our chefs bring grandma's recipes to your plate.</p>
+              <span className="text-primary text-sm font-medium">Explore Our Menu →</span>
             </Link>
             <Link href="/hall" className="group block rounded-sm border border-border bg-white p-5 md:p-6 shadow-sm hover:shadow-md transition-shadow" aria-label="Book AC Hall for events">
-              <h3 className="text-xl sm:text-2xl font-serif font-light mb-3 group-hover:text-primary transition-colors">AC Event Hall</h3>
-              <p className="text-muted-foreground font-light text-sm sm:text-base mb-4">Book our air-conditioned hall for meetings, celebrations, and gatherings. Capacity for 30-80 guests with catering and A/V support.</p>
-              <span className="text-primary text-sm font-medium">Book Hall →</span>
+              <h3 className="text-xl sm:text-2xl font-serif font-light mb-3 group-hover:text-primary transition-colors">Celebrate With Us</h3>
+              <p className="text-muted-foreground font-light text-sm sm:text-base mb-4">From intimate gatherings to grand celebrations — our elegant AC hall sets the perfect stage for your special occasions. We handle the details, you make the memories.</p>
+              <span className="text-primary text-sm font-medium">Plan Your Event →</span>
             </Link>
             <Link href="/order" className="group block rounded-sm border border-border bg-white p-5 md:p-6 shadow-sm hover:shadow-md transition-shadow" aria-label="Order food online from Arcalia">
-              <h3 className="text-xl sm:text-2xl font-serif font-light mb-3 group-hover:text-primary transition-colors">Online Food Order</h3>
-              <p className="text-muted-foreground font-light text-sm sm:text-base mb-4">Order your favorite Kerala dishes online via Zomato. Fast delivery and pickup available in Changanassery and nearby areas.</p>
+              <h3 className="text-xl sm:text-2xl font-serif font-light mb-3 group-hover:text-primary transition-colors">Craving Kerala Food?</h3>
+              <p className="text-muted-foreground font-light text-sm sm:text-base mb-4">Can't visit us? No problem! Get our signature dishes delivered hot to your doorstep. Order via Zomato and taste the Arcalia difference at home.</p>
               <span className="text-primary text-sm font-medium">Order Now →</span>
             </Link>
           </div>
@@ -178,8 +177,8 @@ export default function Home() {
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
             <div className="inline-block w-16 h-0.5 bg-primary mb-6"></div>
-            <h2 id="gallery-heading" className="text-3xl sm:text-4xl md:text-5xl font-serif font-light text-foreground mb-4">Hotel Rooms & Facilities</h2>
-            <p className="text-base sm:text-lg text-muted-foreground font-light">Comfortable budget accommodation near Changanassery bus stand</p>
+            <h2 id="gallery-heading" className="text-3xl sm:text-4xl md:text-5xl font-serif font-light text-foreground mb-4">Take a Peek Inside</h2>
+            <p className="text-base sm:text-lg text-muted-foreground font-light">Clean, comfortable spaces designed for rest and relaxation</p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 md:gap-5">
             {galleryImages.map((image, index) => (
@@ -213,8 +212,8 @@ export default function Home() {
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
             <div className="inline-block w-16 h-0.5 bg-primary mb-6"></div>
-            <h2 id="menu-heading" className="text-3xl sm:text-4xl md:text-5xl font-serif font-light text-foreground mb-4">Kerala Cuisine & Restaurant Menu</h2>
-            <p className="text-base sm:text-lg text-muted-foreground font-light">Authentic South Indian food, biryani, grills & seafood in Changanassery</p>
+            <h2 id="menu-heading" className="text-3xl sm:text-4xl md:text-5xl font-serif font-light text-foreground mb-4">From Our Kitchen to Your Table</h2>
+            <p className="text-base sm:text-lg text-muted-foreground font-light">Every dish tells a story of Kerala's rich culinary heritage</p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8">
             <div className="relative h-64 sm:h-72 md:h-96 overflow-hidden group bg-white shadow-sm rounded-sm">
@@ -288,12 +287,12 @@ export default function Home() {
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
             <div className="inline-block w-16 h-0.5 bg-primary mb-6"></div>
-            <h2 id="location-heading" className="text-3xl sm:text-4xl md:text-5xl font-serif font-light text-foreground mb-4">Hotel Location & Directions</h2>
-            <p className="text-base sm:text-lg text-muted-foreground font-light">Conveniently located near KSRTC Changanassery Bus Stand & Railway Station</p>
+            <h2 id="location-heading" className="text-3xl sm:text-4xl md:text-5xl font-serif font-light text-foreground mb-4">Find Us Easily</h2>
+            <p className="text-base sm:text-lg text-muted-foreground font-light">Right in the heart of Changanassery — you can't miss us!</p>
           </div>
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
             <div>
-              <h3 className="text-2xl font-serif font-light mb-6">How to Reach Arcalia Hotel</h3>
+              <h3 className="text-2xl font-serif font-light mb-6">Getting Here is Simple</h3>
               <div className="space-y-4">
                 <div className="flex items-start gap-3">
                   <CheckCircle className="w-5 h-5 text-primary mt-1 flex-shrink-0" aria-hidden="true" />
@@ -362,8 +361,8 @@ export default function Home() {
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-16">
             <div className="inline-block w-16 h-0.5 bg-primary mb-6"></div>
-            <h2 id="faq-heading" className="text-3xl sm:text-4xl md:text-5xl font-serif font-light text-foreground mb-4">Frequently Asked Questions</h2>
-            <p className="text-base sm:text-lg text-muted-foreground font-light">Common questions about Arcalia Hotel Changanassery</p>
+            <h2 id="faq-heading" className="text-3xl sm:text-4xl md:text-5xl font-serif font-light text-foreground mb-4">Got Questions? We've Got Answers</h2>
+            <p className="text-base sm:text-lg text-muted-foreground font-light">Everything you need to know before your visit</p>
           </div>
           <div className="space-y-4">
             {faqs.map((faq, index) => (
@@ -388,9 +387,9 @@ export default function Home() {
       {/* CTA Section - Conversion focused */}
       <section className="py-16 md:py-20 px-4 bg-primary text-primary-foreground" aria-labelledby="cta-heading">
         <div className="max-w-4xl mx-auto text-center">
-          <h2 id="cta-heading" className="text-3xl sm:text-4xl md:text-5xl font-serif font-light mb-6">Book Your Stay at Arcalia Hotel</h2>
+          <h2 id="cta-heading" className="text-3xl sm:text-4xl md:text-5xl font-serif font-light mb-6">Ready to Experience Arcalia?</h2>
           <p className="text-lg sm:text-xl font-light opacity-90 mb-8 max-w-2xl mx-auto">
-            Experience the best budget accommodation in Changanassery. Call now to reserve your room, book our hall, or make a restaurant reservation.
+            Whether it's a peaceful night's rest, a delicious meal, or a celebration to remember — we're here to make it special. Give us a call, we'd love to host you!
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Button 
